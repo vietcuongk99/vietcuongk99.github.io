@@ -1,0 +1,66 @@
+
+/*p {
+	color: blue;
+}
+*/
+strong {
+	color: blueviolet!important;
+	color: rgb(128, 128, 255);
+	color: #8080ff;
+	font-size: large
+}
+
+#title1 {
+	color: blue;
+	text-transform: uppercase;
+}
+
+/*#title2 {
+	color: red;
+	text-transform: lowercase;
+}
+
+#title3 {
+	color: green;
+	text-transform: capitalize;
+}*/
+
+.center-text {
+	text-align: center;
+}
+
+.bg-blue {
+	background-color: blue;
+	color: white;
+}
+
+h1#title1.center-text.bg-blue{
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+
+h1#title1.center-text .bg-blue{
+	text-align: center;
+	background-color: blue;
+	color: gray;
+}
+
+.center-text, .bg-blue{
+	text-align: center;
+}
+
+.decoration-text {
+	text-decoration: underline;
+}
+
+#description {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-indent: 30px;
+}
+#title1 > #description1 {
+	text-transform: lowercase;
+}
