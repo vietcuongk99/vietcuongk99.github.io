@@ -64,3 +64,8 @@ h1#title1.center-text .bg-blue{
 #title1 > #description1 {
 	text-transform: lowercase;
 }
+
+.img-style {
+	max-width: 100%;
+	border-radius: 0px;
+}
